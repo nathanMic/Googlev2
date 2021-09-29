@@ -1,0 +1,118 @@
+
+* {
+  vertical-align: middle;
+  margin:0;
+  padding:0;
+}
+
+.all {
+position :relative ;
+min-height: 82vh;
+width: auto;
+box-sizing: inherit;
+display: flex;
+align-items: center; 
+justify-content: center;
+flex-direction: column;
+
+}
+#searchbar{position:relative; width:1040px; height:auto;}
+.formulaire               {display:inline-block;}
+.formulaire .champ       {width:450px; height:35px;border-radius: 15px; padding-left:33px;background: url('img/search.svg') no-repeat scroll 7px 7px;}
+
+.nav1 {
+  font-family: Roboto, sans-serif ;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+  margin-right: 10px
+
+}
+
+
+footer{
+   display: flex;
+  bottom: 0px;
+  background-color:  #f7f7f7 ;
+
+  justify-content: space-around;
+  padding : 12px
+}
+
+p {
+  background-color:  #f7f7f7 ;
+  color:#888888 ;
+  padding : 12px
+}
+
+hr {
+  opacity: 20%;
+}
+
+.barre { 
+padding-top:20px
+
+}
+
+.btn {
+  padding-top: 20px;
+  display: flex;
+ 
+}
+
+button {
+  padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #d1d1d1;
+    outline: none;
+    width: 150px; 
+}
+
+
+.nav1 button {
+  position:relative;
+  top : -28px ;
+  left:160px ;
+  background: rgb(73, 91, 245);
+      color: rgb(231, 231, 231);
+}
+
+.nav1 button:focus {
+  border: 1px solid;
+
+}
+.nav1 button:hover {
+  border: 1px solid;
+  color: #888888;
+  }
+
+
+button:focus {
+  border: 1px solid;
+  }
+  
+button:hover {
+  border: 1px solid;
+  }
+
+p {
+  font-family: Roboto, Arial, sans-serif;
+}
+
+
+a {
+  font-family: Roboto, Arial, sans-serif;
+  color:#888888 ;
+outline: none;
+text-decoration: none;
+padding: 2px 1px 0;
+}
+
+
+a:focus {
+border-bottom: 1px solid;
+}
+
+a:hover {
+border-bottom: 1px solid;
+}
